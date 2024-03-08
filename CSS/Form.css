@@ -1,0 +1,39 @@
+/* Importer Bootstrap */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+body {
+    padding: 20px;
+}
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+/* Responsive en mode flemme ouuuuuuuuuuuu */
+@media only screen and (max-width: 600px) {
+    input[type="text"],
+    textarea {
+        width: 100%;
+    }
+}

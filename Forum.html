@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="CSS/bootstrap.css" rel="stylesheet">  
+    <link href="Java/forum.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap">
+    <title>CEPI BLOG</title>
+</head>
+<body class="vh-100 overflow-auto">
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+        <!-- Logo -->
+              <a class="navbar-brand fs-4" href="#">
+                <img src="images/Logo.png" alt="Bootstrap" width="60%" height="60%">
+              </a>
+              <button class= "navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        <!-- SideBar -->
+              <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header text-white border-bottom">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BLOG CEPI</h5>
+                  <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!-- SideBar Body -->
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-center align-items-center fs-3 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                      <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="#">Forum</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Aide</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                    <!--login-->
+                    <div class="d-flex justify-content-center align-items-center gap-3">
+                        <a class="text-white" href="#login">
+                            <img src="images/Connexion.png" alt="Bootstrap" width="50" height="50">
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>       
+        </nav>
+        <!-- BlOG-->
+        <div class="container d-flex flex-column justify-content-center align-items-center p-3 p-md-5" id="Article">
+        </div>
+        <div class="flex-column justify-content-start align-items-center" id="comment">
+        </div>
+        <!-- Footer -->
+        <footer class= "vh-10 overflow-auto">
+          <div class="row justify-content-center align-items-center">
+              <img src="images/facebook.png" class="img-fluid" alt="Image 1" style="max-width: 50px; max-height: 50px;">
+              <img src="images/twitter-icon-free-png.png" class="img-fluid" style="max-width: 50px; max-height: 50px;">
+              <img src="images/6297a2f1e01809629f113598.png" class="img-fluid" style="max-width: 60px; max-height: 60px;">
+          </div>
+          <div class="d-flex flex-column justify-content-center align-items-center">
+              <h6>Centre d'Expertise et de Perfectionnement en Informatique</h6>
+              <h7>Copyright © 2023. Tous droits réservés.</h7>
+          </div>
+      </footer>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+  <script src="Java/forum.js"></script>
+</html>
